@@ -1,0 +1,135 @@
+.textee {
+    z-index: -1;
+    transform: translateY(-600px);
+    display: block;
+
+}
+
+
+body {
+    font-family: Helvetica;
+    background-color: azure;
+}
+
+#user-choice {
+    color: #2ecc71;
+}
+
+#computer-choice {
+    color: #e74c3c;
+}
+
+#result {
+    color: deepskyblue;
+}
+
+
+#saveForm {
+    width: 15%;
+    height: auto;
+    display: block;
+    margin-left: 42%;
+    margin-top: 15%;
+}
+
+#rock {
+    position: relative;
+    float: left;
+    transform: translateY(-600px) translateY(0px);
+    margin-left: 520px;
+    display: block;
+
+}
+
+#paper {
+    position: relative;
+    float: left;
+    transform: translateY(-600px) translateY(0px);
+    margin-left: 400px;
+    display: block;
+
+}
+
+#scissors {
+    position: relative;
+    float: left;
+    transform: translateY(-300px) translateY(0px);
+    margin-left: -630px;
+    display: block;
+
+}
+
+#lizard {
+    position: relative;
+    float: left;
+    transform: translateY(-300px) translateY(0px);
+    margin-left: -110px;
+    display: block;
+
+}
+
+#spock {
+    position: relative;
+    float: left;
+    transform: translateY(-300px) translateY(200px);
+    margin-left: -370px;
+    display: block;
+
+}
+
+.resets {
+    position: absolute;
+    float: left;
+    transform: translateX(-350px) translateY(-600px);
+}
+
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px;
+    margin-left: 50px;
+    text-align: center;
+}
+.icon-option-name {
+    font-size: 20px !important;
+    color: #e74c3c;
+}
+.icon-option {
+    font-size: 60px !important;
+    color: #e74c3c;
+    border-radius: 100px;
+    border: 6px solid #e74c3c;
+    padding: 20px;
+    cursor: pointer;
+}
+.icon-option:hover {
+    font-size: 60px !important;
+    color: #f1c40f;
+    border-radius: 100px;
+    border: 6px solid #f1c40f;
+}
+.icon-option-selected {
+    font-size: 60px !important;
+    color: #f1c40f;
+    border-radius: 100px;
+    border: 6px solid #f1c40f;
+    cursor: pointer;
+    padding: 20px;
+}
+.pc-icon {
+    font-size: 60px !important;
+    color: #2c3e50;
+    border-radius: 100px;
+    border: 8px solid #2c3e50;
+    padding: 24px;
+}
+.pc-name {
+    font-weight: 700;
+    font-size: 50px;
+    color: #2c3e50;
+}
+.social-icon {
+    font-size: 60px !important;
+    color: #2ecc71;
+}
